@@ -321,6 +321,9 @@ MonoBehaviour:
   maximumY: 80
   minimumY: -30
   rotationY: 0
+  axes: 0
+  maximumX: 360
+  minimumX: -360
 --- !u!114 &487651047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,6 +339,8 @@ MonoBehaviour:
   moveSpeed: 15
   _isGrounded: 1
   rb: {fileID: 487651048}
+  sprintSpeedMultiplier: 1.6
+  jumpForce: 35
 --- !u!54 &487651048
 Rigidbody:
   m_ObjectHideFlags: 0
