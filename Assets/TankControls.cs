@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class TankControls : MonoBehaviour
 {
-    public float moveSpeed = 15f;
+    public float moveSpeed = 25f;
     public bool _isGrounded = true;
     Vector3 _inputVector;
     public Rigidbody rb;
 
-    public float sprintSpeedMultiplier = 1.6f;
+    public float sprintSpeedMultiplier = 2.5f;
     public float jumpForce = 35f;
     //public Transform groundCheckTransform;
 
